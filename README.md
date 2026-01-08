@@ -1,10 +1,10 @@
 Snake Game Using Python (pygame)
-Overview
+- Overview
 
 This repository contains a simple Snake game implemented using Python and the pygame library.
 The code demonstrates basic game development concepts such as movement, collision detection, score tracking, and event handling.
 
-Technologies Used
+- Technologies Used
 
 Python 3
 
@@ -12,13 +12,13 @@ pygame
 
 Git and GitHub
 
-Repository Structure
+- Repository Structure
 SnakeGame/
 │
 ├── snake_game.py     # Main game file
 └── README.md         # Documentation
 
-Game Description
+- Game Description
 
 The snake is controlled using the keyboard arrow keys
 
@@ -30,7 +30,7 @@ The game ends if the snake collides with the wall or itself
 
 The current score is displayed during gameplay
 
-Game Features
+- Game Features
 
 Orange background
 
@@ -42,20 +42,21 @@ Real-time score display
 
 Smooth keyboard-controlled movement
 
-How to Run
+- How to Run
 Step 1: Install pygame
 python -m pip install pygame
 
 Step 2: Run the game
 python snake_game.py
 
-Controls
+- Controls
 Key	Action
 Left Arrow	Move left
 Right Arrow	Move right
 Up Arrow	Move up
 Down Arrow	Move down
-Concepts Demonstrated
+
+- Concepts Demonstrated
 
 Game loop implementation
 
@@ -69,10 +70,11 @@ Score tracking
 
 Basic 2D graphics using pygame
 
-Notes
+- Notes
 
 The game uses grid-based movement for consistent behavior
 
 Snake movement is based on fixed step sizes
 
 The code can be extended with additional features
+
